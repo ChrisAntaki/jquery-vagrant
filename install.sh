@@ -16,11 +16,7 @@ sudo yum install php -y
 echo "
 Copying startup script
 "
-mkdir ~/bin
-cp /vagrant/serve.py ~/bin/jquery
-chmod 700 ~/bin/jquery
-
-echo "
-Cloning jQuery
-"
-git clone https://github.com/jquery/jquery.git /vagrant/jquery
+mkdir /home/vagrant/bin
+cp /vagrant/serve.py /home/vagrant/bin/jquery
+chmod 700 /home/vagrant/bin/jquery
+chown vagrant:vagrant /home/vagrant/bin/ -R
