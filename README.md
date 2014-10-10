@@ -5,7 +5,10 @@ Include the `jquery` submodule.
 git submodule update --init
 ```
 
-Install [NodeJS](http://nodejs.org/download), if you haven't
+Install [NodeJS](http://nodejs.org/download) and the Grunt CLI
+```sh
+npm install -g grunt-cli
+```
 
 Install dependencies
 ```sh
