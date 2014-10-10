@@ -24,4 +24,4 @@ Once the server is started, unit tests will be available here: [http://192.168.5
 
 From there, just make changes to jQuery on your host machine. The folder will automatically sync with the VM. Remember to build again with `grunt`, before testing new changes.
 
-Enjoy!
+*Kveðja*
