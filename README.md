@@ -11,7 +11,6 @@ cd jquery
 git checkout master # Switch to latest branch
 npm install # Install dependencies
 grunt # Build jQuery
-cd ..
 ```
 
 Start the VM. Vagrant will set up the VM if its the first run. SSH into the VM. Start the server.
