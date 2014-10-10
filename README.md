@@ -1,37 +1,26 @@
+### Prerequisites
+
+[Vagrant](https://www.vagrantup.com/downloads.html), [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [NodeJS](http://nodejs.org/download), and the [Grunt CLI](http://gruntjs.com/getting-started).
+
 ### Instructions
 
-Include the `jquery` submodule.
+Grab the `jquery/jquery` repository. Switch to the `master` branch. Install its dependencies. Build `jQuery` for the first time.
 ```sh
-git submodule update --init
-```
-
-Install [NodeJS](http://nodejs.org/download) and the Grunt CLI
-```sh
-npm install -g grunt-cli
-```
-
-Install dependencies
-```sh
+git submodule update --init # Clone jquery/jquery
 cd jquery
-npm install
+git checkout master # Switch to latest branch
+npm install # Install dependencies
+grunt # Build jQuery
+cd ..
 ```
 
-Install [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-
-Start the VM. (If this is your first time, it will install & provision itself first.)
+Start the VM. Vagrant will set up the VM if its the first run. SSH into the VM. Start the server.
 ```sh
-vagrant up
+vagrant up # Start the VM
+vagrant ssh # SSH into the VM
+jquery serve # Start server
 ```
 
-SSH into the VM.
+Once the server is started, unit tests will be available here: [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
 
-```sh
-vagrant ssh
-```
-
-Start the server.
-```sh
-jquery serve
-```
-
-Visit the server at [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
+From there, just make changes to jQuery & build it on your host machine. The folder will automatically sync with the VM, thanks to how Vagrant arranges things.
