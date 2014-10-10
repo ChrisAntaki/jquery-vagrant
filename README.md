@@ -33,3 +33,5 @@ Start the server.
 ```sh
 jquery serve
 ```
+
+Visit the server at [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
