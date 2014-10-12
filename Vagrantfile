@@ -13,7 +13,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "chef/centos-7.0"
 
   config.vm.network :private_network, ip: "192.168.50.114"
-  config.vm.network "forwarded_port", guest: 8000, host: 8000
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
