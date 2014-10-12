@@ -1,4 +1,9 @@
 echo "
+Tell yum to use the fastest mirror available
+"
+sudo yum -y install yum-fastestmirror
+
+echo "
 Installing Git
 "
 sudo yum install git -y
