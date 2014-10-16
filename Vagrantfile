@@ -79,7 +79,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # You will need to create the manifests directory and a manifest in
   # the file default.pp in the manifests_path directory.
   #
-  config.vm.provision "shell", path: "install.sh"
+  config.vm.provision "shell", path: "install/install.sh"
 
   # config.vm.provision "puppet" do |puppet|
   #   puppet.manifests_path = "manifests"
