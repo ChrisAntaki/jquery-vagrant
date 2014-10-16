@@ -1,4 +1,0 @@
-[submodule "jquery"]
-	path = jquery
-	url = git@github.com:jquery/jquery.git
-	branch = master

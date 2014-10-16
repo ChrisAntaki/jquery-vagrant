@@ -1,16 +1,10 @@
-# Clone jquery/jquery
-git submodule update --init
-
-# Switch to latest branch
+# Get the latest jQuery repository
+git clone https://github.com/jquery/jquery.git
 cd jquery
-git checkout master
 git pull origin master
 
 # Install dependencies
 npm install
 
-# Build jQuery
+# Build eet with grruunnt
 grunt
-
-# Return to directory
-cd -
