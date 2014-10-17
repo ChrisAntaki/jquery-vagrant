@@ -14,4 +14,4 @@ vagrant up
 
 Unit tests are here: [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
 
-Rebuild jQuery with `grunt`, to test your new changes.
+Rebuild jQuery with `grunt`, to test changes.
