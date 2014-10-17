@@ -12,6 +12,6 @@
 vagrant up
 ```
 
-Unit tests will be viewable at: [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
+Unit tests are here: [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
 
-Now just build jQuery by running `grunt`, in the `./jquery` directory, and your changes will be testable!
+Rebuild jQuery with `grunt`, to test your new changes.
