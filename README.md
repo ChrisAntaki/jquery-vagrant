@@ -5,13 +5,13 @@
 ### Installation
 
 ```sh
-# Get the latest jQuery repository.
+# Get the latest jQuery repository & build.
 . ./install/jquery.sh
 
-# Start up your nginx!
+# Start up a VM with nginx.
 vagrant up
 ```
 
-Unit tests are here: [http://192.168.50.114:8000/test/](http://192.168.50.114:8000/test/)
+Unit tests are available here: [http://192.168.50.114/test/](http://192.168.50.114/test/)
 
-Rebuild jQuery with `grunt` to test changes.
+For more details, please check out the [official jQuery GitHub documentation](https://github.com/jquery/jquery).
